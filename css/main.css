@@ -3,6 +3,7 @@ body {
     width: 70%;
     background-color: #EEFFE9;
     font-family: 'Open Sans', sans-serif;
+    color: #2E3832;
 }
 nav ul {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -49,7 +50,7 @@ nav ul li, footer ul li {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.5em;
     font-weight: 300;
-    color: #000000;
+    color: #2E3832;
 }
 
 .no_btn_link_head {
@@ -124,5 +125,4 @@ blockquote {
   color: #5B6D62;
   text-transform: uppercase;
   line-height: 2em;
-  border-spacing: 10px;
 }
