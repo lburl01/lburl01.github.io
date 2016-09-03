@@ -126,3 +126,16 @@ blockquote {
   text-transform: uppercase;
   line-height: 2em;
 }
+
+img {
+  max-width: 300px;
+  height: 300px;
+}
+
+.right {
+  width: 40%;
+  height: 100%;
+  padding-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
