@@ -27,6 +27,15 @@ a:hover {
   border: 2px solid #BA6D10;
 }
 
+.post_link, .post_link:hover {
+  text-transform: uppercase;
+  color: #5B6D62;
+  font-weight: 600;
+  background-color: #EEFFE9;
+  padding: 0 2px 0 2px;
+  border: 0;
+}
+
 footer ul {
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 0px;
@@ -105,4 +114,15 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+blockquote {
+  border-left: 4px solid #5B6D62;
+  padding-left: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  color: #5B6D62;
+  text-transform: uppercase;
+  line-height: 2em;
+  border-spacing: 10px;
 }
