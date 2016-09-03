@@ -3,6 +3,15 @@ layout: default
 title: busy lori bee
 ---
 <div class="blurb">
-	<h1>Hi there, I'm Lori!</h1>
-	<p>Just me. Being a bee.</p>
+	<h1>Reports from the wild of The Iron Yard, Durham.</h1>
+	<h2>Just me. Being a busy bee learning, living, and reporting on my adventures.</h2>
 </div><!-- /.blurb -->
+
+<div class="posts_summary">
+	<ul class="posts">
+
+		{% for post in site.posts %}
+			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+</div>
