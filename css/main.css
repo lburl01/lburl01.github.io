@@ -1,40 +1,99 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: #EEFFE9;
+    font-family: 'Raleway', sans-serif;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+nav ul {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+
+a {
+  background: #E98A15;
+  color: #EEFFE9;
+  display: inline-block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: 2px solid #eeffe9;
+  padding: 10px 25px 10px 25px;
+}
+
+a:hover {
+  border: 2px solid #BA6D10;
+}
+
+footer ul {
+    font-family: 'Open Sans Condensed', sans-serif;
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: 300;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #000000;
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+.no_btn_link_head {
+  background-color: #E03C16;
+  text-align: center;
+  color: #EEFFE9;
+  border: 2px solid #EEFFE9;
+  padding: 10px 20px 10px 20px;
+  font-size: .8em;
+  font-weight: 300;
 }
-a:hover {
-    text-decoration: bold;
+
+.no_btn_link_foot {
+    background-color: #BEE6CE;
+    text-align: center;
+    color: #000000;
+    border: 2px solid #EEFFE9;
+    padding: 10px 25px 10px 25px;
 }
+
+.no_btn_link_head:hover {
+  background-color: #E03C16;
+  color: #EEFFE9;
+  font-weight: bolder;
+  font-family: 'Open Sans Condensed', sans-serif;
+  border: 2px solid #A32B10;
+}
+
+.no_btn_link_foot:hover {
+    background-color: #BEE6CE;
+    color: #000000;
+    font-weight: bolder;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 2px solid #89A594;
+}
+
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Raleway', sans-serif;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    font-family:
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 3px solid #8BA897;
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
