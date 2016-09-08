@@ -4,15 +4,20 @@ html, body, .wrapper {
     min-height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #EEFFE9;
+    background-color: #fbfbfb;
     font-family: 'Open Sans', sans-serif;
     color: #2E3832;
 }
 
-.container {
-max-width: 940px;
-margin: 0 auto;
-padding: 0 10px;
+.header_rule {
+  background-color: #e8083c;
+  height: 2%;
+  width: auto;
+}
+
+#header_img {
+  width: 100%;
+  height: 100%;
 }
 
 .header {
@@ -21,10 +26,10 @@ padding: 0 10px;
   padding: 0;
 }
 
-.footer {
-  background-color: #8BA897;
-  margin: 0;
-  padding: 0px 0px 25px 0px;
+.container {
+max-width: 940px;
+margin: 0 auto;
+padding: 0 10px;
 }
 
 .nav {
@@ -32,49 +37,34 @@ padding: 0 10px;
   padding: 0;
 }
 
-.header ul, .footer ul {
+.header ul {
     font-family: 'Open Sans Condensed', sans-serif;
     list-style: none;
     font-weight: 300;
 }
 
-.nav li, .footer li {
-    display: inline;
+.nav li {
+    display: inline-block;
     margin-right: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.5em;
     font-weight: 300;
     color: #2E3832;
-}
-
-.no_btn_link_foot {
-    background-color: #8BA897;
     text-align: center;
-    color: #EEFFE9;
-    padding: 10px 25px 10px 25px;
-    border: 5px solid #8BA897;
 }
 
 .no_btn_link_head {
     background-color: #E03C16;
     text-align: center;
     color: #EEFFE9;
-    padding: 10px 25px 10px 25px;
-    border: 5px solid #E03C16;
+    padding: 10px;
+    border: none;
 }
 
 .no_btn_link_head:hover {
-  color: #EEFFE9;
   font-weight: bolder;
   font-family: 'Open Sans Condensed', sans-serif;
-  border-bottom: 5px solid #A32B10;
-}
-
-.no_btn_link_foot:hover {
-    color: #EEFFE9;
-    font-weight: bolder;
-    font-family: 'Open Sans Condensed', sans-serif;
-    border-bottom: 5px solid #5B6D62;
+  border: none;
 }
 
 a {
@@ -85,12 +75,7 @@ a {
   font-weight: bold;
   letter-spacing: 1px;
   text-decoration: none;
-  border: 5px solid #eeffe9;
   padding: 10px 25px 10px 25px;
-}
-
-a:hover {
-  border-bottom: 5px solid #BA6D10;
 }
 
 .post_link, .post_link:hover {
@@ -138,7 +123,7 @@ blockquote {
   line-height: 2em;
 }
 
-img {
+.square_img {
   max-width: 250px;
   height: 250px;
 }
@@ -159,4 +144,8 @@ img {
 .gallery {
   text-align: center;
   display: table-cell;
+}
+
+.buffer {
+  height: 10%;
 }
