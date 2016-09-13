@@ -151,3 +151,7 @@ blockquote {
 .buffer {
   height: 10%;
 }
+
+#bottom_margin {
+  line-height: 3em;
+}
