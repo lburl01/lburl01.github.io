@@ -8,27 +8,80 @@
 			<![endif]-->
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway:300i,500|Open+Sans:400,600" rel="stylesheet">
+      <link rel="stylesheet" href="/css/normalize.css">
+      <link rel="stylesheet" href="/css/skeleton.css">
+      <link rel="stylesheet" href="/css/main.css">
+			<link href="https://fonts.googleapis.com/css?family=Cabin|Catamaran:700|Dosis" rel="stylesheet">
 		</head>
 		<body>
-			<div class="header_rule"></div>
-			<div class="header">
-				<img id="header_img" src="http://i.imgur.com/5xvo0AE.jpg" />
-				<div class="container">
-	    		<ul class="nav">
-	        		<li><a class="no_btn_link_head" href="/">home</a></li>
-		        	<li><a class="no_btn_link_head" href="/about">about</a></li>
+
+<!-- Menu -->
+
+<!-- <nav class="navigation">
+  <a href="#" class="menu-icon">
+  </a>
+  <ul class="main-navigation">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#blog">Blog</a></li>
+  </ul>
+</nav> -->
+
+<!-- Hero -->
+
+<section id="hero" class="hero u-full-width">
+  <div class="hero-image"></div>
+  <div class="container centered">
+    <div class="twelve columns">
+      <h1 class="separator">busy lori bee</h1>
+      <h2>Reporting from the Wilds of The Iron Yard, Durham.</h2>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+
+<section data-sr id="about" class="about u-full-width">
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h3 class="separator">About</h3>
+        <h4>Something about me. Something more about me. Oh, how I love ice cream.</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Blog -->
+
+<section data-sr id="blog" class="blog u-full-width featured-bg-image">
+	<div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h3 class="separator">She Be Bloggin'</h3>
+				<div class="recent_posts_list">
+					<ul>
+						{% for post in site.posts limit:5 %}
+							<li><span id="bottom_margin">{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+						{% endfor %}
 					</ul>
 				</div>
-			</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-			<div class="container">
+<!-- Footer -->
 
-			{{ content }}
+<section data-sr class="footer u-full-width">
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h5>&copy 2016 L. B. Baumgartner</h5>
+      </div>
+    </div>
+  </div>
+</section>
 
-			</div><!-- /.container -->
-			<div class="buffer">
-			</div>
-		</body>
-	</html>
+</body>
+</html>

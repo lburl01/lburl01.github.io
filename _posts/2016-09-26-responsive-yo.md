@@ -1,5 +1,5 @@
 ---
-layout: testing2
+layout: post
 title: "Make this responsive"
 date: 2016-09-26
 ---
