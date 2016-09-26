@@ -3,11 +3,12 @@ layout: post
 title: "Brains! And feeling grateful"
 date: 2016-09-15
 ---
-
-<h2>Days 2 & 3</h2>
-<p><strong>Time Spent at Campus:</strong> 9.5 hours (includes Orientations #2 & 3)</p>
+<hr>
+<h6>Days 2 & 3</h6>
+<p><strong>Time Spent at Campus:</strong> 9.5 hours (includes Orientations 2 & 3)</p>
 <p><strong>Time spent doing homework/working at home:</strong> 1 hour</p>
 <p><strong>Panic Level:</strong> 2 out of 6</p>
+<hr>
 
 <p><strong>Brains</strong><p>
 <p>I'm not sure my brain has ever been so "on". I mean, I'm an overachiever/perfectionist and always have been. So not with almost no boundaries on what I can try to make happen, my brain is in overdrive. I have a hard time falling asleep and getting my mind to turn off. My alarm goes off at 6 and immediately my brain's on again. Thankfully I have ways of distracting it like biking with my dogs or going for a morning walk, but I already long a little for sleeping in.</p>
