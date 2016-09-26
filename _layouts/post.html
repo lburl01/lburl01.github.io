@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
+
+
 <div class="container">
+
   <h3>{{ page.title }}</h3>
   <h4 class="meta">{{ page.date | date_to_string }}</h4>
 
@@ -9,7 +12,8 @@ layout: default
     {{ content }}
   </div>
 
-    <div class="two-thirds" class="column">
+  <div class="row">
+    <div class="four columns">
       <div class="PageNavigation">
         {% if page.previous.url %}
           <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
@@ -19,5 +23,6 @@ layout: default
         {% endif %}
       </div>
     </div>
+  </div>
 
 </div>
