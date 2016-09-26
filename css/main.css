@@ -194,12 +194,28 @@ section {
   background-color: white;
 }
 
-/* Clients */
+/* About */
+
+.img_about {
+  list-style: none;
+  width: 100%;
+}
+.img_about li {
+  position: relative;
+  overflow: hidden;
+}
+.img_about li img {
+  height: 300px;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+/* Blog Posts */
 
 .blog ul {
   list-style: none;
   display: inline-table;
-  width: 35%;
+  width: 45%;
 }
 .blog li {
   display: block;
@@ -214,6 +230,8 @@ section {
   .button.inverted {
     padding: 15px;
   }
+  .blog ul {
+    width: 85%;
 }
 @media (min-width: 400px)  and (max-width: 750px) {
 }
