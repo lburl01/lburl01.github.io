@@ -320,9 +320,6 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
-/* Clearing
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 /* Self Clearing Goodness */
 .container:after,
 .row:after,
@@ -330,6 +327,23 @@ hr {
   content: "";
   display: table;
   clear: both; }
+
+  .PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
