@@ -4,7 +4,7 @@ title: "Brains! And feeling grateful"
 date: 2016-09-15
 ---
 <hr>
-<h6>Days 2 & 3</h6>
+<h4>Days 2 & 3</h4>
 <p><strong>Time Spent at Campus:</strong> 9.5 hours (includes Orientations 2 & 3)</p>
 <p><strong>Time spent doing homework/working at home:</strong> 1 hour</p>
 <p><strong>Panic Level:</strong> 2 out of 6</p>
