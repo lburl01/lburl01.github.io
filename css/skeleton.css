@@ -48,7 +48,7 @@
 
   .container .column,
   .container .columns {
-    margin-left: 4%; }
+    margin-left: 0; }
 
   .container .one.column,
   .container .one.columns          { width: 4.66666666667%; }
