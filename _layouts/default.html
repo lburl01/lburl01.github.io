@@ -13,79 +13,79 @@
       <link rel="stylesheet" href="/css/main.css">
 			<link href="https://fonts.googleapis.com/css?family=Cabin|Catamaran:700|Dosis" rel="stylesheet">
 		</head>
-		<body>
+	<body>
 
-<!-- Menu -->
+	<!-- Menu -->
 
-<!-- <nav class="navigation">
-  <a href="#" class="menu-icon">
-  </a>
-  <ul class="main-navigation">
-    <li><a href="#hero">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#blog">Blog</a></li>
-  </ul>
-</nav> -->
+	<!-- <nav class="navigation">
+	  <a href="#" class="menu-icon">
+	  </a>
+	  <ul class="main-navigation">
+	    <li><a href="#hero">Home</a></li>
+	    <li><a href="#about">About</a></li>
+	    <li><a href="#blog">Blog</a></li>
+	  </ul>
+	</nav> -->
 
-<!-- Hero -->
+	<!-- Hero -->
 
-<section id="hero" class="hero u-full-width">
-  <div class="hero-image"></div>
-  <div class="container centered">
-    <div class="twelve columns">
-      <h1 class="separator">busy lori bee</h1>
-      <h2>Reporting from the Wilds of The Iron Yard, Durham.</h2>
-    </div>
-  </div>
-</section>
+	<section id="hero" class="hero u-full-width">
+	  <div class="hero-image"></div>
+	  <div class="container centered">
+	    <div class="twelve columns">
+	      <h1 class="separator">busy lori bee</h1>
+	      <h2>Reporting from the Wilds of The Iron Yard, Durham.</h2>
+	    </div>
+	  </div>
+	</section>
 
-<!-- About -->
+	<!-- About -->
 
-<section id="about" class="about u-full-width">
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <h3 class="separator">About</h3>
-				<h4>Museum-junkie turned computer programmer. (Almost.)</h4>
-				<ul class="img_about">
-					<li><img src='http://i.imgur.com/ByFkAEl.jpg' /></li>
-					<li><p>I'm chronicling my time at The Iron Yard as I learn Ruby on Rails and become the coding ninja everyone wishes they could be. I'm hoping to solve problems in new ways and sprinkle happiness and curiosity along the way. Oh, and I eat a lot of ice cream.</p></li>
-				</ul>
-      </div>
-    </div>
-	</div>
-</section>
-
-<!-- Blog -->
-
-<section id="blog" class="blog u-full-width featured-bg-image">
-	<div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <h3 class="separator">She Be Bloggin'</h3>
-				<div class="recent_posts_list">
-					<ul>
-						{% for post in site.posts limit:5 %}
-							<li><span id="bottom_margin">{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-						{% endfor %}
+	<section id="about" class="about u-full-width">
+	  <div class="container">
+	    <div class="row">
+	      <div class="twelve columns">
+	        <h3 class="separator">About</h3>
+					<h4>Museum-junkie turned computer programmer. (Almost.)</h4>
+					<ul class="img_about">
+						<li><img src='http://i.imgur.com/ByFkAEl.jpg' /></li>
+						<li><p>I'm chronicling my time at The Iron Yard as I learn Ruby on Rails and become the coding ninja everyone wishes they could be. I'm hoping to solve problems in new ways and sprinkle happiness and curiosity along the way. Oh, and I eat a lot of ice cream.</p></li>
 					</ul>
-				</div>
-      </div>
-    </div>
-  </div>
-</section>
+	      </div>
+	    </div>
+		</div>
+	</section>
 
-<!-- Footer -->
+	<!-- Blog -->
 
-<section class="footer u-full-width">
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <h5>&copy 2016 L. B. Baumgartner</h5>
-      </div>
-    </div>
-  </div>
-</section>
+	<section id="blog" class="blog u-full-width featured-bg-image">
+		<div class="container">
+	    <div class="row">
+	      <div class="twelve columns">
+	        <h3 class="separator">She Be Bloggin'</h3>
+					<div class="recent_posts_list">
+						<ul>
+							{% for post in site.posts limit:5 %}
+								<li><span id="bottom_margin">{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+							{% endfor %}
+						</ul>
+					</div>
+	      </div>
+	    </div>
+	  </div>
+	</section>
 
-</body>
+	<!-- Footer -->
+
+	<section class="footer u-full-width">
+	  <div class="container">
+	    <div class="row">
+	      <div class="twelve columns">
+	        <h5>&copy; 2016 L. B. Baumgartner</h5>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+
+	</body>
 </html>
