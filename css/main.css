@@ -46,6 +46,50 @@ h3 {
   font-size: 28px;
 }
 
+.prev, .next {
+  color: #000;
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #99ffcc;
+  background: #f7f7f7;
+  padding: 10px 20px;
+}
+
+.prev:hover, .next:hover {
+  color: #000;
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #99ffcc;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.topcorner {
+   position: absolute;
+   top: 0;
+   right: 0;
+   border-radius: 0 0 0 0;
+   background-color: #824F51;
+   padding: 3%;
+
+  }
+
+blockquote {
+  border-left-style: solid;
+  border-width: thick;
+  border-color: #00cc99;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 4%;
+  background: #f7f7f7;
+}
+
+.buffer {
+  padding: 4%;
+}
+
 /* Custom ultilities */
   /* Centered */
 
