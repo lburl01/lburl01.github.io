@@ -269,6 +269,18 @@ section {
   font-family: font-family: "Dosis", Helvetica, Arial, sans-serif;
 }
 
+.post-link {
+  color: #000;
+  font-family: font-family: "Dosis", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  background-color: #99ffcc;
+}
+
+.post-link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
 /* Larger than mobile */
 @media (max-width: 400px) {
   .button.inverted {

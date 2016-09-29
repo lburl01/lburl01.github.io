@@ -21,7 +21,7 @@ So, what did I learn so far? Well, I had a really good foundational knowledge of
 
 Today, Thursday, we had the assignment to build a static webpage that used Javascript to change the user interface when an action was performed. On that page I used Bootstrap since it has JQuery built in and challenged myself to use at least one button, one dropdown, and one input field and then create reactions based on those objects.
 
-I think my project came out really cool so far! Javascript has some of the most interesting functionality to me...but since doing the CodeSchool Javascript course 5 months ago, looking at the functions was *really* hard to pick up again this week. Want to see my project? <a href="https://lburl01.github.io/adventures-in-js/">Find it here.</a> At this point in time, I still need to go back and add functionality to the input fields and add a final "slide". Hopefully by the time someone else is reading this, I'll have already done that!
+I think my project came out really cool so far! Javascript has some of the most interesting functionality to me...but since doing the CodeSchool Javascript course 5 months ago, looking at the functions was *really* hard to pick up again this week. Want to see my project? <a class="post-link" href="https://lburl01.github.io/adventures-in-js/">Find it here.</a> At this point in time, I still need to go back and add functionality to the input fields and add a final "slide". Hopefully by the time someone else is reading this, I'll have already done that!
 
 Overall, I'm still really enjoying my time at The Iron Yard. It's been interesting to see my mindset change in the last three weeks as I encounter new vocabulary, new concepts, new methods of writing previously understood topics, and more.
 
