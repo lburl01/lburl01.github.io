@@ -148,16 +148,26 @@ blockquote {
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
   }
-  .separator.orange:before {
-    background-color: #d87843;
+  .separator.white:before {
+    background-color: #fff;
   }
 
-.button-home {
+button, .button-home {
   border: 2px solid #fff;
   color: #fff;
+  font-family: "Catamaran";
+  background-color: transparent;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0 30px;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
-.button-home:hover {
+button, .button-home:hover {
   background: #fff;
   border-color: #fff;
   color: black;
