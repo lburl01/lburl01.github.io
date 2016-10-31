@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Slim"
-date: 2016-10-17
+date: 2016-10-10
 ---
 
 <hr>
