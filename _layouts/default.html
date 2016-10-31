@@ -70,7 +70,7 @@
 	        <h3 class="separator white">She Be Bloggin'</h3>
 					<div class="recent_posts_list">
 						<ul>
-							{% for post in site.posts limit:5 %}
+							{% for post in site.posts reversed limit:5 %}
 								<li><span id="bottom_margin">{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 							{% endfor %}
 						</ul>
