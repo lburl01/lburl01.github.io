@@ -15,4 +15,6 @@ It was definitely two different experiences and there are a couple of things I'd
 
 This project was Movie Lens (aka shitty Netflix) and we were tasked with creating a program that could take some open source data on movies and user ratings and spitting out that information based on user input and MAYBE even generating a recommended list of movies based on a user's ratings. (I don't think anyone got that far - which stinks because it would be awesome to say I figured out how to implement Euclidian Distance!) Both of our classes had already done a similar program (and I had done movie lens twice - the ever-perfectionist I am) so that was super helpful to have a fairly strong starting point.
 
-I had two FE teammates and because our class is so much smaller than theirs, I was the only back-end developer for our team. This ended up working out fine (and probably saved a few Github merge issues I know other groups faced). 
+I had two FE teammates and because our class is so much smaller than theirs, I was the only back-end developer for our team. This ended up working out fine (and probably saved a few Github merge issues I know other groups faced) and I really enjoyed working with my teammates.
+
+Things that I felt worked well were our communication and general collaboration. We helped each other out when necessary (like when both of us kind of screwed up our github master branch). We met our decided-upon goals for the project. 
